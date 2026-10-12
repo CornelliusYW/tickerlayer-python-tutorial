@@ -1,0 +1,1798 @@
+{
+  "started_at_utc": "2026-10-12T14:57:25.205828+00:00",
+  "quotes": [
+    {
+      "asset": "crypto",
+      "payload": {
+        "symbol": "BTCUSD",
+        "bid": 82598.7,
+        "ask": 82598.71,
+        "bid_size": 5.95638,
+        "ask_size": 0.99859,
+        "timestamp": 1791817046856
+      },
+      "received_at_utc": "2026-10-12T14:57:26.159711+00:00"
+    },
+    {
+      "asset": "forex",
+      "payload": {
+        "symbol": "EURUSD",
+        "bid": 1.117169,
+        "ask": 1.117219,
+        "bid_size": 79,
+        "ask_size": 63,
+        "timestamp": 1791817046004
+      },
+      "received_at_utc": "2026-10-12T14:57:26.556428+00:00"
+    },
+    {
+      "asset": "stocks",
+      "payload": {
+        "symbol": "US:AAPL",
+        "bid": 341,
+        "ask": 341.02,
+        "bid_size": 80,
+        "ask_size": 80,
+        "timestamp": 1791817047151
+      },
+      "received_at_utc": "2026-10-12T14:57:26.896143+00:00"
+    },
+    {
+      "asset": "indices",
+      "payload": {
+        "symbol": "AR40",
+        "bid": 2827319.85,
+        "ask": 2828733.87,
+        "bid_size": 7,
+        "ask_size": 37,
+        "timestamp": 1791576299000
+      },
+      "received_at_utc": "2026-10-12T14:57:27.201591+00:00"
+    },
+    {
+      "asset": "etfs",
+      "payload": {
+        "symbol": "AAA",
+        "bid": 24.85,
+        "ask": 24.97,
+        "bid_size": 100,
+        "ask_size": 100,
+        "timestamp": 1791817020225
+      },
+      "received_at_utc": "2026-10-12T14:57:27.500574+00:00"
+    },
+    {
+      "asset": "commodities",
+      "payload": {
+        "symbol": "XAUUSD",
+        "bid": 4163.7625,
+        "ask": 4164.1825,
+        "bid_size": 58,
+        "ask_size": 78,
+        "timestamp": 1791817048597
+      },
+      "received_at_utc": "2026-10-12T14:57:27.921586+00:00"
+    },
+    {
+      "asset": "perpetuals",
+      "payload": {
+        "symbol": "AAOIUSDT",
+        "bid": 101.665,
+        "ask": 101.755,
+        "bid_size": 212.69,
+        "ask_size": 224.9224,
+        "source_count": 6,
+        "timestamp": 1791817048740
+      },
+      "received_at_utc": "2026-10-12T14:57:28.217824+00:00"
+    }
+  ],
+  "statuses": [
+    {
+      "asset": "stocks",
+      "symbol": "US:AAPL",
+      "payload": {
+        "asset": "stocks",
+        "market": "US",
+        "status": "open",
+        "is_open": true,
+        "phase": "primary",
+        "reason": "Primary session",
+        "timestamp": "2026-10-12T14:57:30.038Z",
+        "timezone": "America/New_York",
+        "local_time": "2026-10-12T10:57:30.038-04:00",
+        "meta": {
+          "calendar_version": "v1-static-2026-2027",
+          "data_notice": "Market status and holiday calendars are indicative and provided for informational and integration use only. Calendars may change due to local rules, special closures, early closes, or operational events."
+        },
+        "symbol": "US:AAPL",
+        "next_close": "2026-10-12T20:00:00.000Z"
+      }
+    },
+    {
+      "asset": "indices",
+      "symbol": "AR40",
+      "payload": {
+        "asset": "indices",
+        "market": "GLOBAL",
+        "status": "open",
+        "is_open": true,
+        "phase": "primary",
+        "reason": "Generic weekday session (UTC)",
+        "timestamp": "2026-10-12T14:57:30.321Z",
+        "timezone": "UTC",
+        "local_time": "2026-10-12T14:57:30.321Z",
+        "meta": {
+          "calendar_version": "v1-static-2026-2027",
+          "data_notice": "Market status and holiday calendars are indicative and provided for informational and integration use only. Calendars may change due to local rules, special closures, early closes, or operational events."
+        },
+        "symbol": "AR40",
+        "next_close": "2026-10-12T17:00:00.000Z"
+      }
+    },
+    {
+      "asset": "etfs",
+      "symbol": "AAA",
+      "payload": {
+        "asset": "etfs",
+        "market": "US",
+        "status": "open",
+        "is_open": true,
+        "phase": "primary",
+        "reason": "Primary session",
+        "timestamp": "2026-10-12T14:57:30.624Z",
+        "timezone": "America/New_York",
+        "local_time": "2026-10-12T10:57:30.624-04:00",
+        "meta": {
+          "calendar_version": "v1-static-2026-2027",
+          "data_notice": "Market status and holiday calendars are indicative and provided for informational and integration use only. Calendars may change due to local rules, special closures, early closes, or operational events."
+        },
+        "symbol": "AAA",
+        "next_close": "2026-10-12T20:00:00.000Z"
+      }
+    }
+  ],
+  "errors": [],
+  "bond": {
+    "symbol": "US:10Y",
+    "rate": 5.24,
+    "unit": "percent",
+    "date": "2026-10-09",
+    "timestamp": 1791504000000,
+    "prev_rate": 5.22,
+    "prev_date": "2026-10-08",
+    "prev_timestamp": 1791417600000,
+    "change": 0.02,
+    "change_bps": 2,
+    "change_percent": 0.3831
+  },
+  "snapshot": {
+    "symbol": "BTCUSD",
+    "bid": 82600,
+    "ask": 82600.01,
+    "bid_size": 5.65885,
+    "ask_size": 1.11607,
+    "last_price": 82512.2,
+    "last_size": 0.00535261,
+    "last_timestamp": 1791817049432,
+    "prev_close": 83773.12,
+    "change": -1260.92,
+    "change_percent": -1.5052
+  },
+  "history": {
+    "symbol": "BTCUSD",
+    "results_count": 7,
+    "total_count": 7,
+    "results": [
+      {
+        "o": 86530,
+        "h": 86999.11,
+        "l": 84972.01,
+        "c": 85766.87,
+        "v": 16186.7761,
+        "t": 1791158400000
+      },
+      {
+        "o": 85766.87,
+        "h": 86698.99,
+        "l": 85136.11,
+        "c": 85549.93,
+        "v": 12614.47572,
+        "t": 1791244800000
+      },
+      {
+        "o": 85549.94,
+        "h": 85598.22,
+        "l": 82787.25,
+        "c": 83321.81,
+        "v": 20838.08376,
+        "t": 1791331200000
+      },
+      {
+        "o": 83321.81,
+        "h": 83521.15,
+        "l": 80393.56,
+        "c": 81754.45,
+        "v": 21676.96164,
+        "t": 1791417600000
+      },
+      {
+        "o": 81754.46,
+        "h": 83528.98,
+        "l": 81603.52,
+        "c": 82635.55,
+        "v": 12301.61263,
+        "t": 1791504000000
+      },
+      {
+        "o": 82635.56,
+        "h": 83173.29,
+        "l": 82545.82,
+        "c": 82988.36,
+        "v": 7437.72181,
+        "t": 1791590400000
+      },
+      {
+        "o": 82988.35,
+        "h": 84199,
+        "l": 82804.65,
+        "c": 83773.12,
+        "v": 6963.51092,
+        "t": 1791676800000
+      }
+    ],
+    "next_offset": null
+  },
+  "websocket": {
+    "duration_seconds": 8.66,
+    "events": [
+      {
+        "received_at_utc": "2026-10-12T14:57:33.409230+00:00",
+        "message": {
+          "type": "system",
+          "event": "ready",
+          "ts": 1791817054034
+        }
+      },
+      {
+        "received_at_utc": "2026-10-12T14:57:34.371222+00:00",
+        "message": {
+          "type": "system",
+          "event": "pong",
+          "ts": 1791817054918
+        }
+      },
+      {
+        "received_at_utc": "2026-10-12T14:57:34.371222+00:00",
+        "message": {
+          "type": "system",
+          "event": "subscribed",
+          "channels": [
+            "crypto.quotes",
+            "crypto.trades"
+          ],
+          "symbols": [
+            "BTCUSD"
+          ]
+        }
+      },
+      {
+        "received_at_utc": "2026-10-12T14:57:34.371222+00:00",
+        "message": {
+          "type": "trade",
+          "channel": "crypto.trades",
+          "asset": "crypto",
+          "symbol": "BTCUSD",
+          "price": "82611.9",
+          "size": "0.169505",
+          "ts": 1791817054789
+        }
+      },
+      {
+        "received_at_utc": "2026-10-12T14:57:34.371222+00:00",
+        "message": {
+          "type": "quote",
+          "channel": "crypto.quotes",
+          "asset": "crypto",
+          "symbol": "BTCUSD",
+          "bid": "82614",
+          "ask": "82614.01",
+          "bid_size": "5.48359",
+          "ask_size": "1.18694",
+          "ts": 1791817054963
+        }
+      },
+      {
+        "received_at_utc": "2026-10-12T14:57:34.884379+00:00",
+        "message": {
+          "type": "quote",
+          "channel": "crypto.quotes",
+          "asset": "crypto",
+          "symbol": "BTCUSD",
+          "bid": "82614",
+          "ask": "82614.01",
+          "bid_size": "5.48359",
+          "ask_size": "1.18707",
+          "ts": 1791817055357
+        }
+      },
+      {
+        "received_at_utc": "2026-10-12T14:57:34.884379+00:00",
+        "message": {
+          "type": "trade",
+          "channel": "crypto.trades",
+          "asset": "crypto",
+          "symbol": "BTCUSD",
+          "price": "82522.86",
+          "size": "0.00059813",
+          "ts": 1791817055241
+        }
+      },
+      {
+        "received_at_utc": "2026-10-12T14:57:34.884379+00:00",
+        "message": {
+          "type": "trade",
+          "channel": "crypto.trades",
+          "asset": "crypto",
+          "symbol": "BTCUSD",
+          "price": "82522.86",
+          "size": "1.2e-7",
+          "ts": 1791817055253
+        }
+      },
+      {
+        "received_at_utc": "2026-10-12T14:57:34.884379+00:00",
+        "message": {
+          "type": "trade",
+          "channel": "crypto.trades",
+          "asset": "crypto",
+          "symbol": "BTCUSD",
+          "price": "82611.9",
+          "size": "0.380634",
+          "ts": 1791817055235
+        }
+      },
+      {
+        "received_at_utc": "2026-10-12T14:57:34.884379+00:00",
+        "message": {
+          "type": "trade",
+          "channel": "crypto.trades",
+          "asset": "crypto",
+          "symbol": "BTCUSD",
+          "price": "82614.5",
+          "size": "0.00048543",
+          "ts": 1791817055242
+        }
+      },
+      {
+        "received_at_utc": "2026-10-12T14:57:34.976571+00:00",
+        "message": {
+          "type": "trade",
+          "channel": "crypto.trades",
+          "asset": "crypto",
+          "symbol": "BTCUSD",
+          "price": "82522.87",
+          "size": "0.00117779",
+          "ts": 1791817055484
+        }
+      },
+      {
+        "received_at_utc": "2026-10-12T14:57:34.991517+00:00",
+        "message": {
+          "type": "trade",
+          "channel": "crypto.trades",
+          "asset": "crypto",
+          "symbol": "BTCUSD",
+          "price": "82522.86",
+          "size": "2.9e-7",
+          "ts": 1791817055556
+        }
+      },
+      {
+        "received_at_utc": "2026-10-12T14:57:34.991517+00:00",
+        "message": {
+          "type": "quote",
+          "channel": "crypto.quotes",
+          "asset": "crypto",
+          "symbol": "BTCUSD",
+          "bid": "82614",
+          "ask": "82614.01",
+          "bid_size": "6.58565",
+          "ask_size": "0.85429",
+          "ts": 1791817055618
+        }
+      },
+      {
+        "received_at_utc": "2026-10-12T14:57:35.185039+00:00",
+        "message": {
+          "type": "trade",
+          "channel": "crypto.trades",
+          "asset": "crypto",
+          "symbol": "BTCUSD",
+          "price": "82611.9",
+          "size": "0.328373",
+          "ts": 1791817055609
+        }
+      },
+      {
+        "received_at_utc": "2026-10-12T14:57:35.185039+00:00",
+        "message": {
+          "type": "trade",
+          "channel": "crypto.trades",
+          "asset": "crypto",
+          "symbol": "BTCUSD",
+          "price": "82522.86",
+          "size": "1.7e-7",
+          "ts": 1791817055735
+        }
+      },
+      {
+        "received_at_utc": "2026-10-12T14:57:35.251797+00:00",
+        "message": {
+          "type": "trade",
+          "channel": "crypto.trades",
+          "asset": "crypto",
+          "symbol": "BTCUSD",
+          "price": "82522.86",
+          "size": "1.9e-7",
+          "ts": 1791817055825
+        }
+      },
+      {
+        "received_at_utc": "2026-10-12T14:57:35.251797+00:00",
+        "message": {
+          "type": "quote",
+          "channel": "crypto.quotes",
+          "asset": "crypto",
+          "symbol": "BTCUSD",
+          "bid": "82614",
+          "ask": "82614.01",
+          "bid_size": "6.63407",
+          "ask_size": "1.5063",
+          "ts": 1791817055793
+        }
+      },
+      {
+        "received_at_utc": "2026-10-12T14:57:35.497321+00:00",
+        "message": {
+          "type": "trade",
+          "channel": "crypto.trades",
+          "asset": "crypto",
+          "symbol": "BTCUSD",
+          "price": "82521.1",
+          "size": "0.00005",
+          "ts": 1791817056061
+        }
+      },
+      {
+        "received_at_utc": "2026-10-12T14:57:35.497321+00:00",
+        "message": {
+          "type": "trade",
+          "channel": "crypto.trades",
+          "asset": "crypto",
+          "symbol": "BTCUSD",
+          "price": "82521.1",
+          "size": "0.00005",
+          "ts": 1791817056061
+        }
+      },
+      {
+        "received_at_utc": "2026-10-12T14:57:35.499541+00:00",
+        "message": {
+          "type": "trade",
+          "channel": "crypto.trades",
+          "asset": "crypto",
+          "symbol": "BTCUSD",
+          "price": "82521.1",
+          "size": "0.00045443",
+          "ts": 1791817056061
+        }
+      },
+      {
+        "received_at_utc": "2026-10-12T14:57:35.499541+00:00",
+        "message": {
+          "type": "trade",
+          "channel": "crypto.trades",
+          "asset": "crypto",
+          "symbol": "BTCUSD",
+          "price": "82521.1",
+          "size": "0.04944557",
+          "ts": 1791817056061
+        }
+      },
+      {
+        "received_at_utc": "2026-10-12T14:57:35.700600+00:00",
+        "message": {
+          "type": "quote",
+          "channel": "crypto.quotes",
+          "asset": "crypto",
+          "symbol": "BTCUSD",
+          "bid": "82614",
+          "ask": "82614.01",
+          "bid_size": "6.64407",
+          "ask_size": "1.50643",
+          "ts": 1791817055930
+        }
+      },
+      {
+        "received_at_utc": "2026-10-12T14:57:35.700600+00:00",
+        "message": {
+          "type": "trade",
+          "channel": "crypto.trades",
+          "asset": "crypto",
+          "symbol": "BTCUSD",
+          "price": "82615.7",
+          "size": "0.007079",
+          "ts": 1791817056143
+        }
+      },
+      {
+        "received_at_utc": "2026-10-12T14:57:35.700600+00:00",
+        "message": {
+          "type": "trade",
+          "channel": "crypto.trades",
+          "asset": "crypto",
+          "symbol": "BTCUSD",
+          "price": "82615.7",
+          "size": "0.003029",
+          "ts": 1791817056163
+        }
+      },
+      {
+        "received_at_utc": "2026-10-12T14:57:35.753322+00:00",
+        "message": {
+          "type": "trade",
+          "channel": "crypto.trades",
+          "asset": "crypto",
+          "symbol": "BTCUSD",
+          "price": "82521.1",
+          "size": "0.00001396",
+          "ts": 1791817056356
+        }
+      },
+      {
+        "received_at_utc": "2026-10-12T14:57:35.773879+00:00",
+        "message": {
+          "type": "trade",
+          "channel": "crypto.trades",
+          "asset": "crypto",
+          "symbol": "BTCUSD",
+          "price": "82616.1",
+          "size": "0.003543",
+          "ts": 1791817056302
+        }
+      },
+      {
+        "received_at_utc": "2026-10-12T14:57:35.852380+00:00",
+        "message": {
+          "type": "trade",
+          "channel": "crypto.trades",
+          "asset": "crypto",
+          "symbol": "BTCUSD",
+          "price": "82611.9",
+          "size": "0.042574",
+          "ts": 1791817056323
+        }
+      },
+      {
+        "received_at_utc": "2026-10-12T14:57:35.852380+00:00",
+        "message": {
+          "type": "trade",
+          "channel": "crypto.trades",
+          "asset": "crypto",
+          "symbol": "BTCUSD",
+          "price": "82616.1",
+          "size": "0.000445",
+          "ts": 1791817056356
+        }
+      },
+      {
+        "received_at_utc": "2026-10-12T14:57:35.938108+00:00",
+        "message": {
+          "type": "quote",
+          "channel": "crypto.quotes",
+          "asset": "crypto",
+          "symbol": "BTCUSD",
+          "bid": "82614",
+          "ask": "82614.01",
+          "bid_size": "6.64407",
+          "ask_size": "1.51861",
+          "ts": 1791817056564
+        }
+      },
+      {
+        "received_at_utc": "2026-10-12T14:57:36.043725+00:00",
+        "message": {
+          "type": "trade",
+          "channel": "crypto.trades",
+          "asset": "crypto",
+          "symbol": "BTCUSD",
+          "price": "82615.7",
+          "size": "0.008629",
+          "ts": 1791817056543
+        }
+      },
+      {
+        "received_at_utc": "2026-10-12T14:57:36.151575+00:00",
+        "message": {
+          "type": "trade",
+          "channel": "crypto.trades",
+          "asset": "crypto",
+          "symbol": "BTCUSD",
+          "price": "82522.86",
+          "size": "1e-7",
+          "ts": 1791817056700
+        }
+      },
+      {
+        "received_at_utc": "2026-10-12T14:57:36.151575+00:00",
+        "message": {
+          "type": "trade",
+          "channel": "crypto.trades",
+          "asset": "crypto",
+          "symbol": "BTCUSD",
+          "price": "82614.01",
+          "size": "0.00024",
+          "ts": 1791817056635
+        }
+      },
+      {
+        "received_at_utc": "2026-10-12T14:57:36.273079+00:00",
+        "message": {
+          "type": "trade",
+          "channel": "crypto.trades",
+          "asset": "crypto",
+          "symbol": "BTCUSD",
+          "price": "82522.87",
+          "size": "0.00048006",
+          "ts": 1791817056844
+        }
+      },
+      {
+        "received_at_utc": "2026-10-12T14:57:36.284198+00:00",
+        "message": {
+          "type": "quote",
+          "channel": "crypto.quotes",
+          "asset": "crypto",
+          "symbol": "BTCUSD",
+          "bid": "82614",
+          "ask": "82614.01",
+          "bid_size": "6.65207",
+          "ask_size": "1.51837",
+          "ts": 1791817056917
+        }
+      },
+      {
+        "received_at_utc": "2026-10-12T14:57:36.297345+00:00",
+        "message": {
+          "type": "trade",
+          "channel": "crypto.trades",
+          "asset": "crypto",
+          "symbol": "BTCUSD",
+          "price": "82522.86",
+          "size": "7e-8",
+          "ts": 1791817056864
+        }
+      },
+      {
+        "received_at_utc": "2026-10-12T14:57:36.395000+00:00",
+        "message": {
+          "type": "trade",
+          "channel": "crypto.trades",
+          "asset": "crypto",
+          "symbol": "BTCUSD",
+          "price": "82522.86",
+          "size": "2.8e-7",
+          "ts": 1791817056970
+        }
+      },
+      {
+        "received_at_utc": "2026-10-12T14:57:36.622695+00:00",
+        "message": {
+          "type": "quote",
+          "channel": "crypto.quotes",
+          "asset": "crypto",
+          "symbol": "BTCUSD",
+          "bid": "82614",
+          "ask": "82614.01",
+          "bid_size": "6.652",
+          "ask_size": "1.51837",
+          "ts": 1791817056917
+        }
+      },
+      {
+        "received_at_utc": "2026-10-12T14:57:36.622695+00:00",
+        "message": {
+          "type": "trade",
+          "channel": "crypto.trades",
+          "asset": "crypto",
+          "symbol": "BTCUSD",
+          "price": "82522.87",
+          "size": "0.02355257",
+          "ts": 1791817057164
+        }
+      },
+      {
+        "received_at_utc": "2026-10-12T14:57:36.666293+00:00",
+        "message": {
+          "type": "trade",
+          "channel": "crypto.trades",
+          "asset": "crypto",
+          "symbol": "BTCUSD",
+          "price": "82611.9",
+          "size": "0.31889",
+          "ts": 1791817057161
+        }
+      },
+      {
+        "received_at_utc": "2026-10-12T14:57:36.666293+00:00",
+        "message": {
+          "type": "trade",
+          "channel": "crypto.trades",
+          "asset": "crypto",
+          "symbol": "BTCUSD",
+          "price": "82522.87",
+          "size": "0.00167982",
+          "ts": 1791817057248
+        }
+      },
+      {
+        "received_at_utc": "2026-10-12T14:57:36.716083+00:00",
+        "message": {
+          "type": "trade",
+          "channel": "crypto.trades",
+          "asset": "crypto",
+          "symbol": "BTCUSD",
+          "price": "82522.86",
+          "size": "0.00018829",
+          "ts": 1791817057262
+        }
+      },
+      {
+        "received_at_utc": "2026-10-12T14:57:36.782802+00:00",
+        "message": {
+          "type": "trade",
+          "channel": "crypto.trades",
+          "asset": "crypto",
+          "symbol": "BTCUSD",
+          "price": "82615.71",
+          "size": "0.03",
+          "ts": 1791817057262
+        }
+      },
+      {
+        "received_at_utc": "2026-10-12T14:57:36.783556+00:00",
+        "message": {
+          "type": "trade",
+          "channel": "crypto.trades",
+          "asset": "crypto",
+          "symbol": "BTCUSD",
+          "price": "82615.7",
+          "size": "0.013011",
+          "ts": 1791817057266
+        }
+      },
+      {
+        "received_at_utc": "2026-10-12T14:57:36.811208+00:00",
+        "message": {
+          "type": "quote",
+          "channel": "crypto.quotes",
+          "asset": "crypto",
+          "symbol": "BTCUSD",
+          "bid": "82614",
+          "ask": "82614.01",
+          "bid_size": "4.9752",
+          "ask_size": "1.57964",
+          "ts": 1791817057397
+        }
+      },
+      {
+        "received_at_utc": "2026-10-12T14:57:36.831685+00:00",
+        "message": {
+          "type": "trade",
+          "channel": "crypto.trades",
+          "asset": "crypto",
+          "symbol": "BTCUSD",
+          "price": "82614.4",
+          "size": "0.00006",
+          "ts": 1791817057316
+        }
+      },
+      {
+        "received_at_utc": "2026-10-12T14:57:36.831685+00:00",
+        "message": {
+          "type": "trade",
+          "channel": "crypto.trades",
+          "asset": "crypto",
+          "symbol": "BTCUSD",
+          "price": "82614.3",
+          "size": "0.00002774",
+          "ts": 1791817057316
+        }
+      },
+      {
+        "received_at_utc": "2026-10-12T14:57:36.831685+00:00",
+        "message": {
+          "type": "trade",
+          "channel": "crypto.trades",
+          "asset": "crypto",
+          "symbol": "BTCUSD",
+          "price": "82613.5",
+          "size": "0.00032788",
+          "ts": 1791817057317
+        }
+      },
+      {
+        "received_at_utc": "2026-10-12T14:57:36.851316+00:00",
+        "message": {
+          "type": "trade",
+          "channel": "crypto.trades",
+          "asset": "crypto",
+          "symbol": "BTCUSD",
+          "price": "82614",
+          "size": "0.00055",
+          "ts": 1791817057345
+        }
+      },
+      {
+        "received_at_utc": "2026-10-12T14:57:36.866790+00:00",
+        "message": {
+          "type": "trade",
+          "channel": "crypto.trades",
+          "asset": "crypto",
+          "symbol": "BTCUSD",
+          "price": "82614",
+          "size": "0.00034",
+          "ts": 1791817057349
+        }
+      },
+      {
+        "received_at_utc": "2026-10-12T14:57:37.036078+00:00",
+        "message": {
+          "type": "trade",
+          "channel": "crypto.trades",
+          "asset": "crypto",
+          "symbol": "BTCUSD",
+          "price": "82616.1",
+          "size": "0.002602",
+          "ts": 1791817057568
+        }
+      },
+      {
+        "received_at_utc": "2026-10-12T14:57:37.036078+00:00",
+        "message": {
+          "type": "trade",
+          "channel": "crypto.trades",
+          "asset": "crypto",
+          "symbol": "BTCUSD",
+          "price": "82616.1",
+          "size": "0.001551",
+          "ts": 1791817057568
+        }
+      },
+      {
+        "received_at_utc": "2026-10-12T14:57:37.117170+00:00",
+        "message": {
+          "type": "quote",
+          "channel": "crypto.quotes",
+          "asset": "crypto",
+          "symbol": "BTCUSD",
+          "bid": "82614",
+          "ask": "82614.01",
+          "bid_size": "1.61946",
+          "ask_size": "3.47319",
+          "ts": 1791817057743
+        }
+      },
+      {
+        "received_at_utc": "2026-10-12T14:57:37.134033+00:00",
+        "message": {
+          "type": "trade",
+          "channel": "crypto.trades",
+          "asset": "crypto",
+          "symbol": "BTCUSD",
+          "price": "82615.7",
+          "size": "0.002686",
+          "ts": 1791817057629
+        }
+      },
+      {
+        "received_at_utc": "2026-10-12T14:57:37.134033+00:00",
+        "message": {
+          "type": "trade",
+          "channel": "crypto.trades",
+          "asset": "crypto",
+          "symbol": "BTCUSD",
+          "price": "82615.7",
+          "size": "0.008373",
+          "ts": 1791817057629
+        }
+      },
+      {
+        "received_at_utc": "2026-10-12T14:57:37.205943+00:00",
+        "message": {
+          "type": "trade",
+          "channel": "crypto.trades",
+          "asset": "crypto",
+          "symbol": "BTCUSD",
+          "price": "82611.9",
+          "size": "0.131768",
+          "ts": 1791817057697
+        }
+      },
+      {
+        "received_at_utc": "2026-10-12T14:57:37.214123+00:00",
+        "message": {
+          "type": "trade",
+          "channel": "crypto.trades",
+          "asset": "crypto",
+          "symbol": "BTCUSD",
+          "price": "82616.2",
+          "size": "0.000473",
+          "ts": 1791817057743
+        }
+      },
+      {
+        "received_at_utc": "2026-10-12T14:57:37.218024+00:00",
+        "message": {
+          "type": "trade",
+          "channel": "crypto.trades",
+          "asset": "crypto",
+          "symbol": "BTCUSD",
+          "price": "82520.18",
+          "size": "0.00002423",
+          "ts": 1791817057834
+        }
+      },
+      {
+        "received_at_utc": "2026-10-12T14:57:37.305491+00:00",
+        "message": {
+          "type": "trade",
+          "channel": "crypto.trades",
+          "asset": "crypto",
+          "symbol": "BTCUSD",
+          "price": "82520.3",
+          "size": "3.2e-7",
+          "ts": 1791817057877
+        }
+      },
+      {
+        "received_at_utc": "2026-10-12T14:57:37.318669+00:00",
+        "message": {
+          "type": "trade",
+          "channel": "crypto.trades",
+          "asset": "crypto",
+          "symbol": "BTCUSD",
+          "price": "82614",
+          "size": "0.00094",
+          "ts": 1791817057828
+        }
+      },
+      {
+        "received_at_utc": "2026-10-12T14:57:37.550206+00:00",
+        "message": {
+          "type": "trade",
+          "channel": "crypto.trades",
+          "asset": "crypto",
+          "symbol": "BTCUSD",
+          "price": "82615.7",
+          "size": "0.008402",
+          "ts": 1791817057952
+        }
+      },
+      {
+        "received_at_utc": "2026-10-12T14:57:37.550206+00:00",
+        "message": {
+          "type": "quote",
+          "channel": "crypto.quotes",
+          "asset": "crypto",
+          "symbol": "BTCUSD",
+          "bid": "82614",
+          "ask": "82614.01",
+          "bid_size": "1.61852",
+          "ask_size": "3.47319",
+          "ts": 1791817058101
+        }
+      },
+      {
+        "received_at_utc": "2026-10-12T14:57:37.550206+00:00",
+        "message": {
+          "type": "trade",
+          "channel": "crypto.trades",
+          "asset": "crypto",
+          "symbol": "BTCUSD",
+          "price": "82616.1",
+          "size": "0.001051",
+          "ts": 1791817058072
+        }
+      },
+      {
+        "received_at_utc": "2026-10-12T14:57:37.550206+00:00",
+        "message": {
+          "type": "trade",
+          "channel": "crypto.trades",
+          "asset": "crypto",
+          "symbol": "BTCUSD",
+          "price": "82616.1",
+          "size": "0.001599",
+          "ts": 1791817058072
+        }
+      },
+      {
+        "received_at_utc": "2026-10-12T14:57:37.619670+00:00",
+        "message": {
+          "type": "trade",
+          "channel": "crypto.trades",
+          "asset": "crypto",
+          "symbol": "BTCUSD",
+          "price": "82520.3",
+          "size": "1.1e-7",
+          "ts": 1791817058185
+        }
+      },
+      {
+        "received_at_utc": "2026-10-12T14:57:37.633973+00:00",
+        "message": {
+          "type": "trade",
+          "channel": "crypto.trades",
+          "asset": "crypto",
+          "symbol": "BTCUSD",
+          "price": "82520.3",
+          "size": "3.9e-7",
+          "ts": 1791817058216
+        }
+      },
+      {
+        "received_at_utc": "2026-10-12T14:57:37.705813+00:00",
+        "message": {
+          "type": "trade",
+          "channel": "crypto.trades",
+          "asset": "crypto",
+          "symbol": "BTCUSD",
+          "price": "82611.8",
+          "size": "0.033333",
+          "ts": 1791817058198
+        }
+      },
+      {
+        "received_at_utc": "2026-10-12T14:57:37.705813+00:00",
+        "message": {
+          "type": "trade",
+          "channel": "crypto.trades",
+          "asset": "crypto",
+          "symbol": "BTCUSD",
+          "price": "82615.71",
+          "size": "0.067403",
+          "ts": 1791817058216
+        }
+      },
+      {
+        "received_at_utc": "2026-10-12T14:57:37.705813+00:00",
+        "message": {
+          "type": "trade",
+          "channel": "crypto.trades",
+          "asset": "crypto",
+          "symbol": "BTCUSD",
+          "price": "82615.71",
+          "size": "0.053639",
+          "ts": 1791817058216
+        }
+      },
+      {
+        "received_at_utc": "2026-10-12T14:57:37.766984+00:00",
+        "message": {
+          "type": "quote",
+          "channel": "crypto.quotes",
+          "asset": "crypto",
+          "symbol": "BTCUSD",
+          "bid": "82614",
+          "ask": "82614.01",
+          "bid_size": "1.94535",
+          "ask_size": "3.47319",
+          "ts": 1791817058397
+        }
+      },
+      {
+        "received_at_utc": "2026-10-12T14:57:38.057461+00:00",
+        "message": {
+          "type": "quote",
+          "channel": "crypto.quotes",
+          "asset": "crypto",
+          "symbol": "BTCUSD",
+          "bid": "82614",
+          "ask": "82614.01",
+          "bid_size": "2.80526",
+          "ask_size": "2.40412",
+          "ts": 1791817058644
+        }
+      },
+      {
+        "received_at_utc": "2026-10-12T14:57:38.366462+00:00",
+        "message": {
+          "type": "trade",
+          "channel": "crypto.trades",
+          "asset": "crypto",
+          "symbol": "BTCUSD",
+          "price": "82611.8",
+          "size": "0.242425",
+          "ts": 1791817058768
+        }
+      },
+      {
+        "received_at_utc": "2026-10-12T14:57:38.366462+00:00",
+        "message": {
+          "type": "quote",
+          "channel": "crypto.quotes",
+          "asset": "crypto",
+          "symbol": "BTCUSD",
+          "bid": "82614",
+          "ask": "82614.01",
+          "bid_size": "2.86351",
+          "ask_size": "2.40405",
+          "ts": 1791817058911
+        }
+      },
+      {
+        "received_at_utc": "2026-10-12T14:57:38.394031+00:00",
+        "message": {
+          "type": "trade",
+          "channel": "crypto.trades",
+          "asset": "crypto",
+          "symbol": "BTCUSD",
+          "price": "82520.3",
+          "size": "3.2e-7",
+          "ts": 1791817058962
+        }
+      },
+      {
+        "received_at_utc": "2026-10-12T14:57:38.416017+00:00",
+        "message": {
+          "type": "trade",
+          "channel": "crypto.trades",
+          "asset": "crypto",
+          "symbol": "BTCUSD",
+          "price": "82616.1",
+          "size": "0.001206",
+          "ts": 1791817058927
+        }
+      },
+      {
+        "received_at_utc": "2026-10-12T14:57:38.567332+00:00",
+        "message": {
+          "type": "trade",
+          "channel": "crypto.trades",
+          "asset": "crypto",
+          "symbol": "BTCUSD",
+          "price": "82616.2",
+          "size": "0.000024",
+          "ts": 1791817059042
+        }
+      },
+      {
+        "received_at_utc": "2026-10-12T14:57:38.567332+00:00",
+        "message": {
+          "type": "quote",
+          "channel": "crypto.quotes",
+          "asset": "crypto",
+          "symbol": "BTCUSD",
+          "bid": "82614",
+          "ask": "82614.01",
+          "bid_size": "3.16379",
+          "ask_size": "2.4045",
+          "ts": 1791817059118
+        }
+      },
+      {
+        "received_at_utc": "2026-10-12T14:57:38.567332+00:00",
+        "message": {
+          "type": "trade",
+          "channel": "crypto.trades",
+          "asset": "crypto",
+          "symbol": "BTCUSD",
+          "price": "82616.2",
+          "size": "0.003269",
+          "ts": 1791817059094
+        }
+      },
+      {
+        "received_at_utc": "2026-10-12T14:57:38.649784+00:00",
+        "message": {
+          "type": "trade",
+          "channel": "crypto.trades",
+          "asset": "crypto",
+          "symbol": "BTCUSD",
+          "price": "82520.18",
+          "size": "0.00150517",
+          "ts": 1791817059258
+        }
+      },
+      {
+        "received_at_utc": "2026-10-12T14:57:38.758774+00:00",
+        "message": {
+          "type": "trade",
+          "channel": "crypto.trades",
+          "asset": "crypto",
+          "symbol": "BTCUSD",
+          "price": "82520.3",
+          "size": "2.8e-7",
+          "ts": 1791817059332
+        }
+      },
+      {
+        "received_at_utc": "2026-10-12T14:57:38.785290+00:00",
+        "message": {
+          "type": "trade",
+          "channel": "crypto.trades",
+          "asset": "crypto",
+          "symbol": "BTCUSD",
+          "price": "82615.7",
+          "size": "0.015515",
+          "ts": 1791817059286
+        }
+      }
+    ]
+  },
+  "mcp": {
+    "steps": [
+      {
+        "name": "initialize",
+        "status": 200,
+        "duration_ms": 1369.5,
+        "body": {
+          "result": {
+            "protocolVersion": "2025-03-26",
+            "capabilities": {
+              "tools": {
+                "listChanged": true
+              },
+              "resources": {
+                "listChanged": true
+              }
+            },
+            "serverInfo": {
+              "name": "tickerlayer",
+              "version": "0.3.0"
+            },
+            "instructions": "TickerLayer market data tools. One API key covers crypto, forex, stocks, indices, ETFs, commodities, perpetual futures, and bonds through a consistent schema.\n\nSymbol conventions: crypto pairs like BTCUSD; forex pairs like EURUSD; commodities like XAUUSD; ETF codes like US500ETF; stocks always use the COUNTRY:TICKER form with the listing country's ISO alpha-2 prefix, e.g. US:AAPL, DE:BMW, SA:2222. Indices are their own asset class (asset_class \"indices\") with bare codes: US500 (S&P 500), US100 (Nasdaq 100), US30 (Dow), DE40 (DAX), UK100 (FTSE 100), JP225 (Nikkei), KR200 (KOSPI 200), HK50 (Hang Seng). Never request an index through stocks (US:SP500, US:KOSPI, US:NYSE are invalid). Perpetual futures are their own asset class (asset_class \"perpetuals\") with USDT-quoted contract codes: XAUUSDT (gold), BTCUSDT, AAPLUSDT, NVDAUSDT, SPYUSDT; they trade 24/7 including weekends and the quote is a composite across several perpetual markets. They need the Perpetuals plan. Do not invent tickers or file non-US listings under US:; coverage outside the US is curated, so when unsure call list_symbols first. A 404 means the symbol is not in the catalog.\n\nBond symbols use COUNTRY:TENOR (US:10Y, DE:10Y, UK:2Y) via get_bond_yield.\n\nTimestamps are Unix milliseconds unless a field says otherwise. Historical bars (get_history) are limited by plan; from/to are UTC dates (YYYY-MM-DD). If a call returns..."
+          },
+          "jsonrpc": "2.0",
+          "id": 1
+        }
+      },
+      {
+        "name": "initialized_notification",
+        "status": 202,
+        "duration_ms": 408.6
+      },
+      {
+        "name": "tools_list",
+        "status": 200,
+        "duration_ms": 1127.5,
+        "tool_count": 12,
+        "tools": [
+          {
+            "name": "get_quote",
+            "description": "Latest bid/ask quote for a symbol in any asset class. Symbol conventions: crypto pairs like BTCUSD; forex pairs like EURUSD; commodities like XAUUSD; ETF codes like US500ETF; stocks always use the COUNTRY:TICKER form with the listing country's ISO alpha-2 prefix, e.g. US:AAPL, DE:BMW, SA:2222. Indices are their own asset class (asset_class \"indices\") with bare codes: US500 (S&P 500), US100 (Nasdaq 100), US30 (Dow), DE40 (DAX), UK100 (FTSE 100), JP225 (Nikkei), KR200 (KOSPI 200), HK50 (Hang Seng). Never request an index through stocks (US:SP500, US:KOSPI, US:NYSE are invalid). Perpetual futures are their own asset class (asset_class \"perpetuals\") with USDT-quoted contract codes: XAUUSDT (gold), BTCUSDT, AAPLUSDT, NVDAUSDT, SPYUSDT; they trade 24/7 including weekends and the quote is a composite across several perpetual markets. They need the Perpetuals plan. Do not invent tickers or file non-US listings under US:; coverage outside the US is curated, so when unsure call list_symbols first. A 404 means the symbol is not in the catalog.",
+            "inputSchema": {
+              "type": "object",
+              "properties": {
+                "asset_class": {
+                  "type": "string",
+                  "enum": [
+                    "crypto",
+                    "forex",
+                    "stocks",
+                    "indices",
+                    "etfs",
+                    "commodities",
+                    "perpetuals"
+                  ],
+                  "description": "Asset class the symbol belongs to."
+                },
+                "symbol": {
+                  "type": "string",
+                  "minLength": 1,
+                  "description": "Instrument symbol. Symbol conventions: crypto pairs like BTCUSD; forex pairs like EURUSD; commodities like XAUUSD; ETF codes like US500ETF; stocks always use the COUNTRY:TICKER form with the listing country's ISO alpha-2 prefix, e.g. US:AAPL, DE:BMW, SA:2222. Indices are their own asset class (asset_class \"indices\") with bare codes: US500 (S&P 500), US100 (Nasdaq 100), US30 (Dow), DE40 (DAX), UK100 (FTSE 100), JP225 (Nikkei), KR200 (KOSPI 200), HK50 (Hang Seng). Never request an index through stocks (US:SP500, US:KOSPI, US:NYSE are invalid). Perpetual futures are their own asset class (asset_class \"perpetuals\") with USDT-quoted contract codes: XAUUSDT (gold), BTCUSDT, AAPLUSDT, NVDAUSDT, SPYUSDT; they trade 24/7 including weekends and the quote is a composite across several perpetual markets. They need the Perpetuals plan. Do not invent tickers or file non-US listings under US:; coverage outside the US is curated, so when unsure call list_symbols first. A 404 means the symbol is not in the catalog."
+                }
+              },
+              "required": [
+                "asset_class",
+                "symbol"
+              ],
+              "additionalProperties": false,
+              "$schema": "http://json-schema.org/draft-07/schema#"
+            }
+          },
+          {
+            "name": "get_last_trade",
+            "description": "Most recent trade (price/size/timestamp) for a symbol. Symbol conventions: crypto pairs like BTCUSD; forex pairs like EURUSD; commodities like XAUUSD; ETF codes like US500ETF; stocks always use the COUNTRY:TICKER form with the listing country's ISO alpha-2 prefix, e.g. US:AAPL, DE:BMW, SA:2222. Indices are their own asset class (asset_class \"indices\") with bare codes: US500 (S&P 500), US100 (Nasdaq 100), US30 (Dow), DE40 (DAX), UK100 (FTSE 100), JP225 (Nikkei), KR200 (KOSPI 200), HK50 (Hang Seng). Never request an index through stocks (US:SP500, US:KOSPI, US:NYSE are invalid). Perpetual futures are their own asset class (asset_class \"perpetuals\") with USDT-quoted contract codes: XAUUSDT (gold), BTCUSDT, AAPLUSDT, NVDAUSDT, SPYUSDT; they trade 24/7 including weekends and the quote is a composite across several perpetual markets. They need the Perpetuals plan. Do not invent tickers or file non-US listings under US:; coverage outside the US is curated, so when unsure call list_symbols first. A 404 means the symbol is not in the catalog.",
+            "inputSchema": {
+              "type": "object",
+              "properties": {
+                "asset_class": {
+                  "type": "string",
+                  "enum": [
+                    "crypto",
+                    "forex",
+                    "stocks",
+                    "indices",
+                    "etfs",
+                    "commodities",
+                    "perpetuals"
+                  ],
+                  "description": "Asset class the symbol belongs to."
+                },
+                "symbol": {
+                  "type": "string",
+                  "minLength": 1,
+                  "description": "Instrument symbol. Symbol conventions: crypto pairs like BTCUSD; forex pairs like EURUSD; commodities like XAUUSD; ETF codes like US500ETF; stocks always use the COUNTRY:TICKER form with the listing country's ISO alpha-2 prefix, e.g. US:AAPL, DE:BMW, SA:2222. Indices are their own asset class (asset_class \"indices\") with bare codes: US500 (S&P 500), US100 (Nasdaq 100), US30 (Dow), DE40 (DAX), UK100 (FTSE 100), JP225 (Nikkei), KR200 (KOSPI 200), HK50 (Hang Seng). Never request an index through stocks (US:SP500, US:KOSPI, US:NYSE are invalid). Perpetual futures are their own asset class (asset_class \"perpetuals\") with USDT-quoted contract codes: XAUUSDT (gold), BTCUSDT, AAPLUSDT, NVDAUSDT, SPYUSDT; they trade 24/7 including weekends and the quote is a composite across several perpetual markets. They need the Perpetuals plan. Do not invent tickers or file non-US listings under US:; coverage outside the US is curated, so when unsure call list_symbols first. A 404 means the symbol is not in the catalog."
+                }
+              },
+              "required": [
+                "asset_class",
+                "symbol"
+              ],
+              "additionalProperties": false,
+              "$schema": "http://json-schema.org/draft-07/schema#"
+            }
+          },
+          {
+            "name": "get_snapshot",
+            "description": "Consolidated snapshot for a symbol: last trade, bid/ask quote, previous close, and change vs that close; perpetuals also carry mark_price. Best single call for \"how is X doing right now\". For OHLC bars use get_history or get_previous_close. Symbol conventions: crypto pairs like BTCUSD; forex pairs like EURUSD; commodities like XAUUSD; ETF codes like US500ETF; stocks always use the COUNTRY:TICKER form with the listing country's ISO alpha-2 prefix, e.g. US:AAPL, DE:BMW, SA:2222. Indices are their own asset class (asset_class \"indices\") with bare codes: US500 (S&P 500), US100 (Nasdaq 100), US30 (Dow), DE40 (DAX), UK100 (FTSE 100), JP225 (Nikkei), KR200 (KOSPI 200), HK50 (Hang Seng). Never request an index through stocks (US:SP500, US:KOSPI, US:NYSE are invalid). Perpetual futures are their own asset class (asset_class \"perpetuals\") with USDT-quoted contract codes: XAUUSDT (gold), BTCUSDT, AAPLUSDT, NVDAUSDT, SPYUSDT; they trade 24/7 including weekends and the quote is a composite across several perpetual markets. They need the Perpetuals plan. Do not invent tickers or file non-US listings under US:; coverage outside the US is curated, so when unsure call list_symbols first. A 404 means the symbol is not in the catalog.",
+            "inputSchema": {
+              "type": "object",
+              "properties": {
+                "asset_class": {
+                  "type": "string",
+                  "enum": [
+                    "crypto",
+                    "forex",
+                    "stocks",
+                    "indices",
+                    "etfs",
+                    "commodities",
+                    "perpetuals"
+                  ],
+                  "description": "Asset class the symbol belongs to."
+                },
+                "symbol": {
+                  "type": "string",
+                  "minLength": 1,
+                  "description": "Instrument symbol. Symbol conventions: crypto pairs like BTCUSD; forex pairs like EURUSD; commodities like XAUUSD; ETF codes like US500ETF; stocks always use the COUNTRY:TICKER form with the listing country's ISO alpha-2 prefix, e.g. US:AAPL, DE:BMW, SA:2222. Indices are their own asset class (asset_class \"indices\") with bare codes: US500 (S&P 500), US100 (Nasdaq 100), US30 (Dow), DE40 (DAX), UK100 (FTSE 100), JP225 (Nikkei), KR200 (KOSPI 200), HK50 (Hang Seng). Never request an index through stocks (US:SP500, US:KOSPI, US:NYSE are invalid). Perpetual futures are their own asset class (asset_class \"perpetuals\") with USDT-quoted contract codes: XAUUSDT (gold), BTCUSDT, AAPLUSDT, NVDAUSDT, SPYUSDT; they trade 24/7 including weekends and the quote is a composite across several perpetual markets. They need the Perpetuals plan. Do not invent tickers or file non-US listings under US:; coverage outside the US is curated, so when unsure call list_symbols first. A 404 means the symbol is not in the catalog."
+                }
+              },
+              "required": [
+                "asset_class",
+                "symbol"
+              ],
+              "additionalProperties": false,
+              "$schema": "http://json-schema.org/draft-07/schema#"
+            }
+          },
+          {
+            "name": "get_previous_close",
+            "description": "Previous completed daily bar (OHLCV) for a symbol. Pass interval for the most recently settled intraday bar instead. Symbol conventions: crypto pairs like BTCUSD; forex pairs like EURUSD; commodities like XAUUSD; ETF codes like US500ETF; stocks always use the COUNTRY:TICKER form with the listing country's ISO alpha-2 prefix, e.g. US:AAPL, DE:BMW, SA:2222. Indices are their own asset class (asset_class \"indices\") with bare codes: US500 (S&P 500), US100 (Nasdaq 100), US30 (Dow), DE40 (DAX), UK100 (FTSE 100), JP225 (Nikkei), KR200 (KOSPI 200), HK50 (Hang Seng). Never request an index through stocks (US:SP500, US:KOSPI, US:NYSE are invalid). Perpetual futures are their own asset class (asset_class \"perpetuals\") with USDT-quoted contract codes: XAUUSDT (gold), BTCUSDT, AAPLUSDT, NVDAUSDT, SPYUSDT; they trade 24/7 including weekends and the quote is a composite across several perpetual markets. They need the Perpetuals plan. Do not invent tickers or file non-US listings under US:; coverage outside the US is curated, so when unsure call list_symbols first. A 404 means the symbol is not in the catalog.",
+            "inputSchema": {
+              "type": "object",
+              "properties": {
+                "asset_class": {
+                  "type": "string",
+                  "enum": [
+                    "crypto",
+                    "forex",
+                    "stocks",
+                    "indices",
+                    "etfs",
+                    "commodities",
+                    "perpetuals"
+                  ],
+                  "description": "Asset class the symbol belongs to."
+                },
+                "symbol": {
+                  "type": "string",
+                  "minLength": 1,
+                  "description": "Instrument symbol. Symbol conventions: crypto pairs like BTCUSD; forex pairs like EURUSD; commodities like XAUUSD; ETF codes like US500ETF; stocks always use the COUNTRY:TICKER form with the listing country's ISO alpha-2 prefix, e.g. US:AAPL, DE:BMW, SA:2222. Indices are their own asset class (asset_class \"indices\") with bare codes: US500 (S&P 500), US100 (Nasdaq 100), US30 (Dow), DE40 (DAX), UK100 (FTSE 100), JP225 (Nikkei), KR200 (KOSPI 200), HK50 (Hang Seng). Never request an index through stocks (US:SP500, US:KOSPI, US:NYSE are invalid). Perpetual futures are their own asset class (asset_class \"perpetuals\") with USDT-quoted contract codes: XAUUSDT (gold), BTCUSDT, AAPLUSDT, NVDAUSDT, SPYUSDT; they trade 24/7 including weekends and the quote is a composite across several perpetual markets. They need the Perpetuals plan. Do not invent tickers or file non-US listings under US:; coverage outside the US is curated, so when unsure call list_symbols first. A 404 means the symbol is not in the catalog."
+                },
+                "interval": {
+                  "type": "string",
+                  "enum": [
+                    "1m",
+                    "5m",
+                    "15m",
+                    "1h",
+                    "4h",
+                    "1d"
+                  ],
+                  "description": "Optional. Returns the most recently settled bar at this interval instead of the previous daily bar, with its bar_start/bar_end window."
+                }
+              },
+              "required": [
+                "asset_class",
+                "symbol"
+              ],
+              "additionalProperties": false,
+              "$schema": "http://json-schema.org/draft-07/schema#"
+            }
+          },
+          {
+            "name": "get_history",
+            "description": "Historical OHLCV aggregate bars between two UTC dates. Valid interval pairs: 1/5/15 minute, 1/4 hour, 1 day. History depth depends on the account plan.",
+            "inputSchema": {
+              "type": "object",
+              "properties": {
+                "asset_class": {
+                  "type": "string",
+                  "enum": [
+                    "crypto",
+                    "forex",
+                    "stocks",
+                    "indices",
+                    "etfs",
+                    "commodities",
+                    "perpetuals"
+                  ],
+                  "description": "Asset class the symbol belongs to."
+                },
+                "symbol": {
+                  "type": "string",
+                  "minLength": 1,
+                  "description": "Instrument symbol. Symbol conventions: crypto pairs like BTCUSD; forex pairs like EURUSD; commodities like XAUUSD; ETF codes like US500ETF; stocks always use the COUNTRY:TICKER form with the listing country's ISO alpha-2 prefix, e.g. US:AAPL, DE:BMW, SA:2222. Indices are their own asset class (asset_class \"indices\") with bare codes: US500 (S&P 500), US100 (Nasdaq 100), US30 (Dow), DE40 (DAX), UK100 (FTSE 100), JP225 (Nikkei), KR200 (KOSPI 200), HK50 (Hang Seng). Never request an index through stocks (US:SP500, US:KOSPI, US:NYSE are invalid). Perpetual futures are their own asset class (asset_class \"perpetuals\") with USDT-quoted contract codes: XAUUSDT (gold), BTCUSDT, AAPLUSDT, NVDAUSDT, SPYUSDT; they trade 24/7 including weekends and the quote is a composite across several perpetual markets. They need the Perpetuals plan. Do not invent tickers or file non-US listings under US:; coverage outside the US is curated, so when unsure call list_symbols first. A 404 means the symbol is not in the catalog."
+                },
+                "multiplier": {
+                  "type": "integer",
+                  "description": "Interval multiplier. Valid pairs: 1, 5, 15 with minute; 1, 4 with hour; 1 with day."
+                },
+                "timespan": {
+                  "type": "string",
+                  "enum": [
+                    "minute",
+                    "hour",
+                    "day"
+                  ],
+                  "description": "Bar timespan."
+                },
+                "from": {
+                  "type": "string",
+                  "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+                  "description": "UTC start date, inclusive (YYYY-MM-DD)."
+                },
+                "to": {
+                  "type": "string",
+                  "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+                  "description": "UTC end date, inclusive (YYYY-MM-DD). Must be >= from."
+                },
+                "limit": {
+                  "type": "integer",
+                  "minimum": 1,
+                  "maximum": 5000,
+                  "description": "Page size. Default 500, max 5000."
+                },
+                "sort": {
+                  "type": "string",
+                  "enum": [
+                    "asc",
+                    "desc"
+                  ],
+                  "description": "Sort bars by timestamp before pagination. Default desc."
+                }
+              },
+              "required": [
+                "asset_class",
+                "symbol",
+                "multiplier",
+                "timespan",
+                "from",
+                "to"
+              ],
+              "additionalProperties": false,
+              "$schema": "http://json-schema.org/draft-07/schema#"
+            }
+          },
+          {
+            "name": "list_symbols",
+            "description": "List the enabled public symbols for an asset class, optionally filtered by a case-insensitive substring of the symbol or name. Use this before guessing a symbol.",
+            "inputSchema": {
+              "type": "object",
+              "properties": {
+                "asset_class": {
+                  "type": "string",
+                  "enum": [
+                    "crypto",
+                    "forex",
+                    "stocks",
+                    "indices",
+                    "etfs",
+                    "commodities",
+                    "perpetuals"
+                  ],
+                  "description": "Asset class the symbol belongs to."
+                },
+                "search": {
+                  "type": "string",
+                  "description": "Case-insensitive substring filter on symbol or name."
+                },
+                "limit": {
+                  "type": "integer",
+                  "minimum": 1,
+                  "maximum": 500,
+                  "description": "Max entries to return. Default 100."
+                }
+              },
+              "required": [
+                "asset_class"
+              ],
+              "additionalProperties": false,
+              "$schema": "http://json-schema.org/draft-07/schema#"
+            }
+          },
+          {
+            "name": "get_market_status",
+            "description": "Whether markets are open, closed, or in pre/post-market. Call without arguments for a global overview (crypto, forex, and stock regions), or narrow by asset, symbol, or market/region code (e.g. market=US).",
+            "inputSchema": {
+              "type": "object",
+              "properties": {
+                "asset_class": {
+                  "type": "string",
+                  "enum": [
+                    "crypto",
+                    "forex",
+                    "stocks",
+                    "indices",
+                    "etfs",
+                    "commodities",
+                    "cfds"
+                  ],
+                  "description": "Narrow to one asset class."
+                },
+                "asset": {
+                  "type": "string",
+                  "enum": [
+                    "crypto",
+                    "forex",
+                    "stocks",
+                    "indices",
+                    "etfs",
+                    "commodities",
+                    "cfds"
+                  ],
+                  "description": "Alias of asset_class, kept for compatibility. Prefer asset_class."
+                },
+                "symbol": {
+                  "type": "string",
+                  "description": "Resolve status for one symbol."
+                },
+                "market": {
+                  "type": "string",
+                  "description": "Region/market code, e.g. US, GB, DE, JP, SA."
+                },
+                "include_sessions": {
+                  "type": "boolean",
+                  "description": "Include session phases in the response."
+                },
+                "include_holiday": {
+                  "type": "boolean",
+                  "description": "Include holiday context in the response."
+                }
+              },
+              "additionalProperties": false,
+              "$schema": "http://json-schema.org/draft-07/schema#"
+            }
+          },
+          {
+            "name": "get_market_sessions",
+            "description": "Trading session windows (pre-market, primary, post-market) for a market, asset class, or symbol on a given date.",
+            "inputSchema": {
+              "type": "object",
+              "properties": {
+                "asset_class": {
+                  "type": "string",
+                  "enum": [
+                    "crypto",
+                    "forex",
+                    "stocks",
+                    "indices",
+                    "etfs",
+                    "commodities",
+                    "cfds"
+                  ],
+                  "description": "Narrow to one asset class."
+                },
+                "asset": {
+                  "type": "string",
+                  "enum": [
+                    "crypto",
+                    "forex",
+                    "stocks",
+                    "indices",
+                    "etfs",
+                    "commodities",
+                    "cfds"
+                  ],
+                  "description": "Alias of asset_class, kept for compatibility. Prefer asset_class."
+                },
+                "symbol": {
+                  "type": "string",
+                  "description": "Resolve sessions for one symbol."
+                },
+                "market": {
+                  "type": "string",
+                  "description": "Region/market code, e.g. US, GB, DE, JP, SA."
+                },
+                "date": {
+                  "type": "string",
+                  "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+                  "description": "UTC date (YYYY-MM-DD). Default today."
+                }
+              },
+              "additionalProperties": false,
+              "$schema": "http://json-schema.org/draft-07/schema#"
+            }
+          },
+          {
+            "name": "get_market_holidays",
+            "description": "Holiday calendar (full closures and early closes) for a market, asset class, or symbol.",
+            "inputSchema": {
+              "type": "object",
+              "properties": {
+                "asset_class": {
+                  "type": "string",
+                  "enum": [
+                    "crypto",
+                    "forex",
+                    "stocks",
+                    "indices",
+                    "etfs",
+                    "commodities",
+                    "cfds"
+                  ],
+                  "description": "Narrow to one asset class."
+                },
+                "asset": {
+                  "type": "string",
+                  "enum": [
+                    "crypto",
+                    "forex",
+                    "stocks",
+                    "indices",
+                    "etfs",
+                    "commodities",
+                    "cfds"
+                  ],
+                  "description": "Alias of asset_class, kept for compatibility. Prefer asset_class."
+                },
+                "symbol": {
+                  "type": "string",
+                  "description": "Resolve the calendar for one symbol."
+                },
+                "market": {
+                  "type": "string",
+                  "description": "Region/market code, e.g. US, GB, DE, JP, SA."
+                },
+                "year": {
+                  "type": "string",
+                  "pattern": "^\\d{4}$",
+                  "description": "Calendar year, e.g. 2026."
+                },
+                "start": {
+                  "type": "string",
+                  "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+                  "description": "Range start (YYYY-MM-DD)."
+                },
+                "end": {
+                  "type": "string",
+                  "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+                  "description": "Range end (YYYY-MM-DD)."
+                }
+              },
+              "additionalProperties": false,
+              "$schema": "http://json-schema.org/draft-07/schema#"
+            }
+          },
+          {
+            "name": "get_bond_yield",
+            "description": "Latest government bond yield (last rate) for a country/tenor pair. Symbols use COUNTRY:TENOR. Countries: US, DE, FR, IT, ES, UK (UK gilts use UK, never GB). US tenors: 1M, 3M, 6M, 1Y, 2Y, 3Y, 5Y, 7Y, 10Y, 20Y, 30Y. European tenors: 1Y, 2Y, 3Y, 5Y, 10Y, 30Y only.",
+            "inputSchema": {
+              "type": "object",
+              "properties": {
+                "symbol": {
+                  "type": "string",
+                  "pattern": "^[A-Za-z]{2}:\\d{1,2}[MYmy]$",
+                  "description": "Bond symbol as COUNTRY:TENOR, e.g. US:10Y."
+                }
+              },
+              "required": [
+                "symbol"
+              ],
+              "additionalProperties": false,
+              "$schema": "http://json-schema.org/draft-07/schema#"
+            }
+          },
+          {
+            "name": "open_markets_board",
+            "description": "Open the TickerLayer markets board: the latest price and change versus the previous close for widely followed instruments (Bitcoin, Ethereum, EUR/USD, USD/JPY, gold, WTI oil, US 500, US 100, Nvidia, and the US 10-year Treasury yield) in one interactive view. Use it when the user asks for a broad market overview or to open TickerLayer. For one specific instrument call get_snapshot instead: the board makes one data request per row.",
+            "inputSchema": {
+              "type": "object",
+              "properties": {}
+            }
+          },
+          {
+            "name": "search_symbols",
+            "description": "Search the symbols this account can read across crypto, forex, stocks, indices, ETFs, commodities, and perpetuals by ticker or name, best matches first. Powers the search box of the Markets board.",
+            "inputSchema": {
+              "type": "object",
+              "properties": {
+                "query": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 64,
+                  "description": "Ticker or name, e.g. KO, gold, EURUSD."
+                },
+                "limit": {
+                  "type": "integer",
+                  "minimum": 1,
+                  "maximum": 25,
+                  "description": "Max results. Default 12."
+                }
+              },
+              "required": [
+                "query"
+              ],
+              "additionalProperties": false,
+              "$schema": "http://json-schema.org/draft-07/schema#"
+            }
+          }
+        ]
+      },
+      {
+        "name": "tools_call_get_snapshot",
+        "arguments": {
+          "asset_class": "crypto",
+          "symbol": "BTCUSD"
+        },
+        "status": 200,
+        "duration_ms": 681.4,
+        "body": {
+          "result": {
+            "content": [
+              {
+                "type": "text",
+                "text": "{\"symbol\":\"BTCUSD\",\"bid\":82614,\"ask\":82614.01,\"bid_size\":4.84013,\"ask_size\":1.33757,\"last_price\":82521.68,\"last_size\":0.00062074,\"last_timestamp\":1791817063007,\"prev_close\":83773.12,\"change\":-1251.44,\"change_percent\":-1.4938}"
+              }
+            ],
+            "structuredContent": {
+              "symbol": "BTCUSD",
+              "bid": 82614,
+              "ask": 82614.01,
+              "bid_size": 4.84013,
+              "ask_size": 1.33757,
+              "last_price": 82521.68,
+              "last_size": 0.00062074,
+              "last_timestamp": 1791817063007,
+              "prev_close": 83773.12,
+              "change": -1251.44,
+              "change_percent": -1.4938
+            }
+          },
+          "jsonrpc": "2.0",
+          "id": 3
+        }
+      }
+    ],
+    "tool_names": [
+      "get_quote",
+      "get_last_trade",
+      "get_snapshot",
+      "get_previous_close",
+      "get_history",
+      "list_symbols",
+      "get_market_status",
+      "get_market_sessions",
+      "get_market_holidays",
+      "get_bond_yield",
+      "open_markets_board",
+      "search_symbols"
+    ],
+    "error": null
+  },
+  "finished_at_utc": "2026-10-12T14:57:42.834167+00:00"
+}
