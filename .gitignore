@@ -1,0 +1,13 @@
+.env
+.env.*
+env.txt
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+.virtual_documents/
+article_preview/
+results/
+fresh_results/*
+!fresh_results/monitor_20261012T145742Z.json
