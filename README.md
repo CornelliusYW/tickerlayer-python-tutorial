@@ -55,12 +55,32 @@ To follow the article's Python snippets, run them from this repository folder so
 - `fresh_results/monitor_20261012T145742Z.json`: actual responses collected on October 12, 2026.
 - `requirements-article.txt`: dependencies for the Python examples.
 - `check_tutorial.py`: offline checks using the saved responses and stubbed HTTP responses.
+- `stream_recovery.py`: bounded WebSocket reconnection, resubscription, and snapshot requests.
+- `test_stream_recovery.py`: scripted, offline recovery checks; no provider requests.
 
 Run the offline checks with `python check_tutorial.py`. They make no provider requests.
 
+## Temporary errors and reconnects
+
+`get_json` retries REST 503 responses up to three times, using 1, 2, and 4 second delays or a supplied `Retry-After`. Other HTTP errors are raised immediately.
+
+The original `stream_events` function is a short, single-connection capture. For a bounded capture that retries transient disconnects:
+
+```python
+import asyncio
+from stream_recovery import stream_with_reconnect
+
+capture = asyncio.run(stream_with_reconnect(key, seconds=15))
+print("Reconnect attempts:", capture["reconnect_attempts"])
+```
+
+Here `key` is your `TICKERLAYER_API_KEY` environment variable's value. In a notebook with an active event loop, use `capture = await stream_with_reconnect(key, seconds=15)` instead. The helper waits for `ready` on each connection, resubscribes with `snapshot=True`, and retains messages already collected. It permits up to three retries with backoff, honors `Retry-After` on temporary upgrade errors, and does not retry authentication, entitlement, connection-limit, or subscription errors. The 15-second capture window starts on the first successful connection; reconnection waits share that window. Connection setup and closing can add elapsed time.
+
+Run `python -m unittest -v test_stream_recovery.py` for the scripted reconnection checks. They simulate disconnects and HTTP upgrade errors; they are not evidence of recovery during a real TickerLayer outage.
+
 ## Scope and safety
 
-The saved results are historical examples, not current prices. The reviewer key had elevated access; these captures do not establish standard-plan limits, price accuracy, throughput, or long-term reliability. The stream example stops at 80 messages or 15 seconds after connection and does not implement automatic reconnection or gap recovery.
+The saved results are historical examples, not current prices. The reviewer key had elevated access; these captures do not establish standard-plan limits, price accuracy, throughput, or long-term reliability. The original stream example stops at 80 messages or 15 seconds after connection. The optional reconnection helper requests current snapshots where available, not a replay of every trade missed during a disconnect. Neither example implements trade-gap recovery.
 
 No API key is included. Keep credentials in your environment and do not commit them. New captures, local previews, and environment files are ignored by Git; only the specific article capture is tracked.
 

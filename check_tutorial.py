@@ -49,6 +49,32 @@ except requests.HTTPError:
     pass
 else:
     raise AssertionError("404 must fail without a retry")
+temporary = Mock(status_code=503, headers={})
+temporary.raise_for_status.side_effect = requests.HTTPError("temporarily unavailable")
+session.get.side_effect = [temporary, temporary, temporary, ok]
+with patch("market_monitor.time.sleep") as sleep:
+    assert get_json(session, "/fake-local-check") == {"ok": True}
+    assert [call.args[0] for call in sleep.call_args_list] == [1, 2, 4]
+session.get.side_effect = [temporary] * 4
+with patch("market_monitor.time.sleep") as sleep:
+    try:
+        get_json(session, "/fake-local-check")
+    except requests.HTTPError:
+        pass
+    else:
+        raise AssertionError("503 must fail after three retries")
+    assert sleep.call_count == 3
+limited = Mock(status_code=429)
+limited.raise_for_status.side_effect = requests.HTTPError("quota exceeded")
+session.get.side_effect = [limited]
+with patch("market_monitor.time.sleep") as sleep:
+    try:
+        get_json(session, "/fake-local-check")
+    except requests.HTTPError:
+        pass
+    else:
+        raise AssertionError("429 must not retry")
+    sleep.assert_not_called()
 render(report)
 print("PASS: fresh evidence, normalization, history dates, stream reducer, retry branches")
 print("Frames:", len(events), "Quotes:", sum(e['message'].get('type')=='quote' for e in events), "Trades:", sum(e['message'].get('type')=='trade' for e in events))
