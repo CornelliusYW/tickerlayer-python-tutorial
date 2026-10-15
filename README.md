@@ -68,13 +68,15 @@ The original `stream_events` function is a short, single-connection capture. For
 
 ```python
 import asyncio
+import os
 from stream_recovery import stream_with_reconnect
 
+key = os.environ["TICKERLAYER_API_KEY"]
 capture = asyncio.run(stream_with_reconnect(key, seconds=15))
 print("Reconnect attempts:", capture["reconnect_attempts"])
 ```
 
-Here `key` is your `TICKERLAYER_API_KEY` environment variable's value. In a notebook with an active event loop, use `capture = await stream_with_reconnect(key, seconds=15)` instead. The helper waits for `ready` on each connection, resubscribes with `snapshot=True`, and retains messages already collected. It permits up to three retries with backoff, honors `Retry-After` on temporary upgrade errors, and does not retry authentication, entitlement, connection-limit, or subscription errors. The 15-second capture window starts on the first successful connection; reconnection waits share that window. Connection setup and closing can add elapsed time.
+Set `TICKERLAYER_API_KEY` as shown above before running this example. In a notebook with an active event loop, use `capture = await stream_with_reconnect(key, seconds=15)` instead. The helper waits for `ready` on each connection, resubscribes with `snapshot=True`, and retains messages already collected. It permits up to three retries with backoff, honors `Retry-After` on temporary upgrade errors, and does not retry authentication, entitlement, connection-limit, or subscription errors. The 15-second capture window starts on the first successful connection; reconnection waits share that window. Connection setup and closing can add elapsed time.
 
 Run `python -m unittest -v test_stream_recovery.py` for the scripted reconnection checks. They simulate disconnects and HTTP upgrade errors; they are not evidence of recovery during a real TickerLayer outage.
 
